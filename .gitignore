@@ -1,0 +1,8 @@
+.env
+__pycache__
+pyvenv.cfg
+Lib/
+Include/
+Scripts/
+share/
+ImageRoaster.zip

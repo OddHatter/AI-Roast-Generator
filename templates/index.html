@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-sm-12">
+        <img src="static/RoastGenerator.png" align="center" alt="AI Roast Generator" style="width:100%;" />
+    </div>
+</div>
+<div class="row" align="center">
+    <div class="col-sm-12" align="center">
+        <form method="POST" enctype="multipart/form-data">
+            <table align="center">
+
+            <tr><td>{{ form.hidden_tag() }}</td></tr>
+            <tr><td>{{ form.photo }}</td></tr>
+            <tr><td><br><h4>Enter Name:</h4></td></tr>
+            <tr><td>{{ form.user_filename }}</td></tr>
+    </div>
+</div>
+<br>
+<div class="row" align="center">
+    <div class="col-sm-12">
+        <tr><td><button class="btn btn-secondary" type="submit">Upload</button></td></tr>
+            </table>
+        </form>
+    </div>
+</div>
+{% endblock %}

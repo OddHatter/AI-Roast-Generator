@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-sm-12">
+        <h1 align="center">Roast Results</h1>
+    </div>
+</div>
+<h1>Generated Text:</h1>
+    <p>{{ gentext }}</p>
+    <h1>Audio:</h1>
+    <audio controls>
+        <source src="{{ url_for('static', filename='audio/' + audio_filename) }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <img src ="{{ image_url }}" style="width:300px;height:auto;"/>
+{% endblock %}
