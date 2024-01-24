@@ -4,6 +4,6 @@ but can  be improved upon for specific use cases. I implemented a trusted_IP's l
 when the site is live. 
 
 ![image](https://github.com/OddHatter/AI-Roast-Generator/assets/97755834/c3d48e00-1692-47f1-9094-a10acda733bc)
-![image](https://github.com/OddHatter/AI-Roast-Generator/assets/97755834/a0bc16a6-3b35-4fa6-a787-74c74da549d2)
+![image](https://github.com/OddHatter/AI-Roast-Generator/assets/97755834/d9801020-7345-4c17-b29e-d5c98f78ff8c)
 
 
